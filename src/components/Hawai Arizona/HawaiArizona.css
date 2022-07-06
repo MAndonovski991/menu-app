@@ -1,0 +1,45 @@
+.top-left-hawai-arizona {
+    background: rgb(255, 255, 255, 0.6);
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 3rem; 
+}
+
+.top-left-hawai-arizona h1 {
+    margin: 0px;
+    font-size: 1.5rem;
+}
+.top-left-hawai-arizona h2 {
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.top-left-hawai-arizona h6 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 8px;
+    color: #BE763B;
+}
+.top-left-hawai-arizona p {
+    text-align: justify;
+    font-size: 10px; 
+}
+
+.title-desert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.price-desert {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 10px;
+}
+
+/* p {
+    margin: 0rem;
+} */
+
+.underline {
+    border-bottom: 1px solid grey;
+
+}
+
+.drink-name, .drink-price {
+    color: #6D4139;
+    margin: 0rem;
+}
+
+.drink-price {
+    font-weight: bold;
+}

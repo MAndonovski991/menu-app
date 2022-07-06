@@ -1,0 +1,44 @@
+.bottom-full {
+    background: rgb(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 60px;
+    padding-right: 4rem; 
+    padding-left: 4rem; 
+}
+.bottom-full p {
+    text-align: justify;
+    width: 100px;
+    font-size: 10px; 
+}
+
+.bottom-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-first h1 {
+    margin: 0rem;
+}
+
+.bottom-second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-third {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-third h2 {
+    margin: 0rem;
+    font-size: 1rem;
+}
+
+.bottom-third h6 {
+    margin: 0rem;
+}
+.alergy {
+    font-size: 9px;
+}

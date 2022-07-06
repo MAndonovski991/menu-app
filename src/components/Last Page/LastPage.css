@@ -1,0 +1,8 @@
+.last-page {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 6.25rem;
+    margin-top: 21.9rem;
+}

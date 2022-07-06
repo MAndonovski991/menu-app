@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  font-family: "Pinkerston";
+  font-weight:normal;
+}
+
+@font-face {
+  font-family: "Pinkerston";
+  src: url("./fonts/Pinkerston.ttf"),
+  url("./fonts/Pinkerston.woff"),
+  url("./fonts/Pinkerston.woff2"),
+  url("./fonts/Pinkerston\ Oblique.ttf");
+} 
+
+#root {
+  font-family: "Pinkerston";
+}
