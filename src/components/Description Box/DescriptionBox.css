@@ -5,13 +5,30 @@
 .top-right {
     background: rgb(255, 255, 255, 0.6);
     position: absolute;
-    top: 60px;
-    left: 80px;
+    top: 4rem;
+    left: 5rem;
+    right: 0rem;
     display: flex;
     flex-direction: column;
     padding-left: 2rem;
     padding-top: 1.5rem;
     padding-right: 3.5rem; 
+}
+.order-time {
+   font-size: 10px;
+   position: absolute;
+   display: flex;
+   align-self: flex-end;
+   margin-top: 7rem;
+}
+
+.breakfast-info {
+    margin-bottom: 0rem;
+    align-self: flex-end;
+}
+
+.breakfast-info > span {
+    font-weight: bold;
 }
 
 .top-right h2 {
@@ -23,7 +40,6 @@
 .top-right p {
     text-align: justify;
     font-size: 10px; 
-    color: #3D2B22;
 }
 .top-right h6 {
     margin: 0px;
@@ -36,11 +52,44 @@
     justify-content: flex-start;
 }
 
+.bottom-right {
+    background: rgb(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 4rem;
+    left: 5rem;
+    right: 0rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-right: 3.5rem;
+} 
+.bottom-right h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+}
+.bottom-right p {
+    text-align: justify;
+    font-size: 10px; 
+}
+.bottom-right h6 {
+    margin: 0px;
+    font-size: 6px;
+}
+.bottom-right h3 {
+    margin: 0px;
+    margin-left: -1.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
 .top-left {
     background: rgb(255, 255, 255, 0.6);
     position: absolute;
-    top: 60px;
-    right: 80px;
+    top: 4rem;
+    right: 5rem;
+    left: 0rem;
     display: flex;
     flex-direction: column;
     padding-right: 2rem;
@@ -68,42 +117,12 @@
     justify-content: flex-end;
 }
 
-.bottom-right {
-    background: rgb(255, 255, 255, 0.6);
-    position: absolute;
-    bottom: 60px;
-    left: 80px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-    padding-right: 5rem;
-} 
-.bottom-right h2 {
-    display: flex;
-    justify-content: flex-start;
-    margin: 0px;
-}
-.bottom-right p {
-    text-align: justify;
-    font-size: 10px; 
-}
-.bottom-right h6 {
-    margin: 0px;
-    font-size: 6px;
-}
-.bottom-right h3 {
-    margin: 0px;
-    margin-left: -1.5rem;
-    display: flex;
-    justify-content: flex-start;
-}
-
 .bottom-left {
     background: rgb(255, 255, 255, 0.6);
     position: absolute;
-    bottom: 60px;
-    right: 80px;
+    bottom: 4rem;
+    right: 5rem;
+    left: 0rem;
     display: flex;
     flex-direction: column;
     padding-right: 2rem;

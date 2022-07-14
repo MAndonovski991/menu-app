@@ -3,7 +3,7 @@
     position: absolute;
     bottom: 60px;
     padding-right: 4rem; 
-    padding-left: 4rem; 
+    padding-left: 4.3rem; 
 }
 .bottom-full p {
     text-align: justify;
@@ -31,7 +31,12 @@
     justify-content: space-between;
 }
 
-.bottom-third h2 {
+.oreo-price {
+    margin: 0rem;
+    font-size: 1rem;
+}
+
+.magnolia-price {
     margin: 0rem;
     font-size: 1rem;
 }
