@@ -10,9 +10,7 @@ import toGoDrinksMock from "../../Data/ToGoDrinksData";
 import coldDrinksMock from "../../Data/ColdDrinksData";
 import hotDrinksMock from "../../Data/HotDrinksData";
 
-
 import React,{useEffect, useState} from 'react'
-import toGoDrinks from "../../Data/ToGoDrinksData";
 
 function Home() {
 
@@ -23,7 +21,7 @@ function Home() {
 
   const makeAPICall = async () => {
     try {
-      const response = await fetch('/choco/orderservice.svc/PrevzemiMeniCelosno2/1', {mode:'cors'});
+      const response = await fetch('http://v146.softether.net/choco/orderservice.svc/PrevzemiMeniCelosno2/1', {mode:'cors'});
       const data = await response.json();
 
       setDeserts(adaptPricesOf(desertsMock, data))
@@ -74,8 +72,6 @@ function adaptPricesOf(array, data) {
     }
   });
 
-  console.log("KUR")
-  console.log(preparedArray)
   return preparedArray
 }
 
