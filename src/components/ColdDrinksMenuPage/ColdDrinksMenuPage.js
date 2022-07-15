@@ -1,13 +1,12 @@
 import "./ColdDrinksMenuPage.css";
 import Drinks from "../Drinks/Drinks";
-import coldDrinks from "../../Data/ColdDrinksData";
 
-function ColdDrinksMenuPage() {
+function ColdDrinksMenuPage(props) {
     return (
       <>
         <h2>Ладни пијалоци</h2>
         <div className="cold-drinks-container">
-          {ColdDrinkslist()}
+          {ColdDrinkslist(props.coldDrinks)}
         </div>
       </>
     );
@@ -16,7 +15,7 @@ function ColdDrinksMenuPage() {
   
 
 
-  function ColdDrinkslist() {
+  function ColdDrinkslist(coldDrinks) {
     let lists = [];
 
     for (let i = 0; i < coldDrinks.length; i++) {

@@ -1,25 +1,24 @@
 import "./HotDrinksMenuPage.css";
 import Drinks from "../Drinks/Drinks";
-import hotDdrinks from "../../Data/HotDrinksData";
 
-function HotDrinksMenuPage() {
+function HotDrinksMenuPage(props) {
   return (
     <>
       <h2>Топли пијалоци</h2>
       <div className="hot-drinks">
-        {HotDrinkslist()}
+        {HotDrinkslist(props.hotDrinks)}
       </div>
     </>
   );
 }
 
 
-  function HotDrinkslist() {
+  function HotDrinkslist(hotDrinks) {
     let lists = [];
 
-    for (let i = 0; i < hotDdrinks.length; i++) {
+    for (let i = 0; i < hotDrinks.length; i++) {
       let list = (
-        <Drinks drink={hotDdrinks[i]} />
+        <Drinks drink={hotDrinks[i]} />
       );
       lists.push(list);
     }

@@ -27,6 +27,7 @@ const items = [
       }
     },
     {
+      _id: 34,
       image: {
           position: "image-left",
           alt: "Breakfast",
@@ -55,6 +56,7 @@ const items = [
       }
     },
     {
+      _id: 9,      
       image: {
           position: "image-center",
           alt: "Pancake",
@@ -81,6 +83,7 @@ const items = [
       }
     },
     {
+      _id: 14,
       image: {
           position: "image-center",
           alt: "fruit-mini-pancake",
@@ -98,7 +101,7 @@ const items = [
         },
         position: "top-right",
         value: {
-          title: "Fruit Mini Pancake",
+          title: "Fruity Mini Pancake",
           ingridients: "Млечно - Бело - Темно чоколадо, банана, јагода, пченично брашно, путер, млеко, квасец, сол, шеќер, јајца, ванилин, вода.",
           alergies: "АЛЕРГЕН: Млеко, глутен, кикирики, јајца",
           price: "240",
@@ -107,6 +110,7 @@ const items = [
       } 
     },
     {
+      _id: 11,
       image: {
           position: "image-center",
           alt: "Caramel crepe",
@@ -133,6 +137,7 @@ const items = [
       }
     },
     {
+      _id: 6,
       image: {
           position: "image-center",
           alt: "Stick waffle",
@@ -159,6 +164,7 @@ const items = [
       } 
     },
     {
+      _id: 18,
       image: {
           position: "image-center",
           alt: "Roma",
@@ -185,6 +191,7 @@ const items = [
       }
     },
     {
+      _id: 28,
       image: {
           position: "image-center",
           alt: "Shaduman",
@@ -211,6 +218,7 @@ const items = [
       }
     },
     {
+      _id: 12,
       image: {
           position: "image-center",
           alt: "Bundle crepe",
@@ -237,6 +245,7 @@ const items = [
       }
     },
     {
+      _id: 24,
       image: {
           position: "image-center",
           alt: "Victoriia",
@@ -263,6 +272,7 @@ const items = [
       }
     },
     {
+      _id: 10,
       image: {
           position: "image-center",
           alt: "Magnific crepe",
@@ -289,6 +299,7 @@ const items = [
       }
     },
     {
+      _id: 8,
       image: {
           position: "image-center",
           alt: "Burger pancake",
@@ -315,9 +326,10 @@ const items = [
       }
     },
     {
+      _id: 15,
       image: {
           position: "image-center",
-          alt: "Fettucine",
+          alt: "Fettuccine",
           src: "/images/fettucine.jpg"
       },
       description_box: {
@@ -341,6 +353,7 @@ const items = [
       }
     },
     {
+      _id: 19,
       image: {
           position: "image-center",
           alt: "brownie",
@@ -367,6 +380,7 @@ const items = [
       }
     },
     {
+      _id: 22,
       image: {
           position: "image-center",
           alt: "Paris brownie",
@@ -393,6 +407,7 @@ const items = [
       }
     },
     {
+      _id: 33,
       image: {
           position: "image-center",
           alt: "Cookie pan",
@@ -419,6 +434,7 @@ const items = [
       }
     },
     {
+      _id: 17,
       image: {
           position: "image-center",
           alt: "Sushi crepe",
@@ -445,6 +461,7 @@ const items = [
       }
     },
     {
+      _id: 13,
       image: {
           position: "image-center",
           alt: "Mini pancake",
@@ -471,6 +488,7 @@ const items = [
       }
     },
     {
+      _id: 32,
       image: {
           position: "image-center",
           alt: "churros",
@@ -497,6 +515,7 @@ const items = [
       }
     },
     {
+      _id: 3,
       image: {
           position: "image-center",
           alt: "Crepe",
@@ -523,6 +542,7 @@ const items = [
       }
     },
     {
+      _id: 7,
       image: {
           position: "image-center",
           alt: "Plate Waffle",
@@ -549,6 +569,7 @@ const items = [
       }
     },
     {
+      _id: 21,
       image: {
           position: "image-center",
           alt: "Crepe cake",
@@ -575,6 +596,7 @@ const items = [
       } 
     },
     {
+      //TODO:
       image: {
           position: "image-center",
           alt: "Mini strawberry cake",
@@ -601,6 +623,7 @@ const items = [
       }
     },
     {
+      //TODO:
       image: {
           position: "image-center",
           alt: "Mini chocolate cake",
@@ -627,6 +650,7 @@ const items = [
       }
     },
     {
+      _id: 29,
       image: {
           position: "image-center",
           alt: "Oreo Magnolia",
@@ -659,6 +683,7 @@ const items = [
       }
     },
     {
+      _id: 20,
       image: {
           position: "image-center",
           alt: "White chocolate brownie",
@@ -685,6 +710,7 @@ const items = [
       }
     },
     {
+      _id: 5,
       image: {
           position: "image-center",
           alt: "Bubble Waffle",
@@ -711,6 +737,7 @@ const items = [
       }
     },
     {
+      //TODO:
       image: {
           position: "image-center",
           alt: "Belgium Waffle",
@@ -737,6 +764,7 @@ const items = [
       }
     },
     {
+      _id: 23,
       image: {
           position: "image-center",
           alt: "Triangle",
@@ -763,6 +791,7 @@ const items = [
       }
     },
     {
+      _id: 21,
       image: {
           position: "image-center",
           alt: "Brownie Crepe",
@@ -789,6 +818,7 @@ const items = [
       }
     },
     {
+      //TODO: 
       image: {
           position: "image-center",
           alt: "Strawberry cake",
@@ -815,6 +845,7 @@ const items = [
       }
     },
     {
+      //TODO: 
       image: {
           position: "image-center",
           alt: "Chocolate cake",
@@ -841,6 +872,7 @@ const items = [
       }
     },
     {
+      //TODO:
       image: {
           position: "image-center",
           alt: "Pistachio cake",
@@ -867,6 +899,7 @@ const items = [
       }
     },
     {
+      //TODO:
       image: {
           position: "image-center",
           alt: "Chokolate cake",
@@ -893,6 +926,7 @@ const items = [
       }
     },
     {
+      _id: 31,
       image: {
           position: "image-center",
           alt: "Fondue",
@@ -919,6 +953,7 @@ const items = [
       }
     },
     {
+      _id: 88,
       image: {
           position: "image-center",
           alt: "Hawai Ariozna Tokyo",
@@ -975,6 +1010,7 @@ const items = [
       }
     },
     {
+      //TODO: 
       image: {
           position: "image-center",
           alt: "Mini chocolate",
