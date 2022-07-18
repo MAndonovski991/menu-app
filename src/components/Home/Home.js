@@ -21,7 +21,7 @@ function Home() {
 
   const makeAPICall = async () => {
     try {
-      const response = await fetch('http://v146.softether.net/choco/orderservice.svc/PrevzemiMeniCelosno2/1', {mode:'cors'});
+      const response = await fetch('choco/orderservice.svc/PrevzemiMeniCelosno2/1', {mode:'cors'});
       const data = await response.json();
 
       setDeserts(adaptPricesOf(desertsMock, data))
@@ -67,7 +67,7 @@ function adaptPricesOf(array, data) {
   array.forEach(item => {
     let serverItem = data.find(element => element._id == item._id);
     if (serverItem !== undefined) {
-      item.price = serverItem._cena 
+      item.description_box.value.price = serverItem._cena 
       preparedArray.push(item)
     }
   });
